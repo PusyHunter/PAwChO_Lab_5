@@ -1,0 +1,8 @@
+Do zbudowania obrazu:
+docker build -f Dockerfile_Homework --build-arg VERSION=1.0.0 -t etp1:1.0.0 .
+
+Do uruchomienia serwera:
+docker run -p 8080:8080 etp1:1.0.0  
+
+Do sprawdzenia czy obraz jest uruchomiony:
+docker ps
